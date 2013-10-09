@@ -8,6 +8,6 @@ set passwd [string trim $expect_out(buffer)]
 spawn echo p$passwd
 spawn mysql -u$account -p$passwd
 #spawn ssh mrbiglule@lule.me
-send "use naladb\n"
+send "use yourdb\n"
 send "show tables;\n"
 interact
