@@ -1,6 +1,17 @@
 #!/usr/bin/python
 #encoding=utf-8
 #参数1生成句数
+# 环境 mac os x 10.8.5  python 2.7.2
+# 起因http://blog.renren.com/share/404478938/16626025254
+# step1.安装jieba中文分词
+# https://github.com/fxsjy/jieba
+# sudo pip install jieba
+# step2.根据分词词性分离主谓宾
+# 参照http://1.cool.sinaapp.com/?p=54
+# step3.随机搭配词组
+# step4.收集歌词
+# step5.bingo~~u get the trick!
+# 赶紧试试吧。亲
 import jieba
 import jieba.posseg as pseg
 import random
