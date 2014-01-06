@@ -77,8 +77,8 @@ def sortDic(xxxwordsparam,xxxwordslist):
 		if xxxwordslist.count(i)>1:
 			vdic[i] = xxxwordslist.count(i)
 	xxdicsorted=sorted(vdic.items(), key=lambda e:e[1], reverse=True)
-	# for kv in xxdicsorted: 
-		# print xxxwordsparam+"排序后: ", kv[0],kv[1]
+	for kv in xxdicsorted: 
+		print xxxwordsparam+"排序后: ", kv[0],kv[1]
 	return xxdicsorted
 vdicsorted=sortDic("动词",vwordslist)
 ndicsorted=sortDic("名词",nwordslist)
