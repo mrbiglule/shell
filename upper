@@ -1,0 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*- 
+#首字母大写脚本
+import sys
+args = sys.argv[1]
+print args[0].upper()+args[1:]

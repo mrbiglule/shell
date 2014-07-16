@@ -5,5 +5,6 @@ if [ "$args" = "" ];then
 elif [ "$args" = "file" ];then
     svn commit -m'add file'
 else
-	svn commit -m'$args'
+    remark=$@
+    svn commit -m "$remark"
 fi
